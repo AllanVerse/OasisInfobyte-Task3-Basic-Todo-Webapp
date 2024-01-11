@@ -1,0 +1,100 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #494949;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2{
+  color:#404240;
+}
+
+input {
+  width: 70%;
+  font-size: 15px;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  border-radius: 4px 4px 0px 0px;
+}
+
+button {
+  padding: 8px;
+  width: 69.6%;
+  background-color: #404240;
+  color: #fff;
+  border: none;
+  border-radius:0px 0px 4px 4px;
+  cursor: pointer;
+}
+
+.rmovTask{
+  width:30%;
+  color: white;
+}
+.rmovTask:hover{
+  background-color: red;
+}
+
+button:active {
+  background-color: #b8b8b844;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  color:#fff;
+  font-size: 15px;
+  background-color:#494949;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 8px;
+}
+
+#greeting{
+  color:white;
+}
